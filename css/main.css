@@ -14,3 +14,29 @@ h1, h2, h3, h4, .lead {
 	background-color: beige;
 }
 
+.motto {
+	display: none;
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+	padding: 0.5em;
+	margin-right: 0.5em;
+}
+
+nav ul {
+	padding-left: 0;
+}
+
+@media (min-width: 768px) {
+	.motto {
+		display: inline;
+	}
+
+	body {
+		font-size: 18px;
+	}
+
+
+} /* for screens 768px and bigger */
