@@ -29,6 +29,14 @@ nav ul {
 	padding-left: 0;
 }
 
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: yellow;
+}
+
 @media (min-width: 768px) {
 	.motto {
 		display: inline;
