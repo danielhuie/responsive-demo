@@ -38,5 +38,15 @@ nav ul {
 		font-size: 18px;
 	}
 
+	header {
+		position: relative;
+	}
+
+	nav {
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+
 
 } /* for screens 768px and bigger */
